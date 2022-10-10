@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Open+Sans:wght@700&family=Poppins:wght@600&display=swap');
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 25px;
+    
+}
+.header{
+  
+    position: relative;
+    width: 100vw;
+}
+
+
+nav{
+    position: absolute;
+    top:0px;
+    left:42%;
+    color:white;
+    font-size:0.9em;
+
+}
+nav img{
+    display: block;
+    width:100px;
+    margin: auto;
+}
+
+nav span{
+    /* text-decoration: underline; */
+    margin-left:5px;
+}
+
+
+
+/* create account */
+.create form{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8em;
+    justify-content: space-between;
+    height: 500px;
+    position: relative;
+}
+form div p{
+    margin: 0;
+}
+form input{
+    width: 80%;
+    border-top:0;
+    border-right: 0;
+    border-left: 0;
+}
+form input[type="checkbox"]{
+    width: 20px;
+    height: 15px;
+    border-radius: 0px;
+    color: black;
+}
+
+form button{
+    width: 200px;
+    font-size: 15px;
+    font-family: "Poppins";
+    font-weight: 650;
+    letter-spacing: 1px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+
+input:focus{
+   
+    outline: none;
+}
+.float{
+    transition: all ease-in-out;
+    
+}
+
+/* input:active .float{
+    transform: translateY(0px);
+} */
+
+/* polaroids */
+
+.pols .row div{
+    position: relative;
+}
+.pols .row div:before
+{
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 60px;
+    background-color: rgba(117, 113, 113, 0.6);
+    transform: translate(100%,-27%) ;
+
+ 
+    
+}
+
+.pols .row div{
+    transform: rotate(-10deg);
+    margin:0 10px 40px 0;
+}
+
+.pols .row div:nth-child(2){
+    transform: rotate(10deg) translateY(15px);
+}
+
+.pols .row div:nth-child(4){
+    transform: rotate(-15deg) 
+}
+
+.pols .row div:nth-child(5){
+    transform: rotate(-5deg) 
+}
+
+
+.pols .row div:nth-child(5){
+    transform: rotate(-5deg)
+}
